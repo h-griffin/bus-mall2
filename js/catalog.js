@@ -14,7 +14,7 @@ function populateForm() {
   for (var i = 0; i < Product.allProducts.length; i++) {
     document.getElementById('items');
     var optionEl = document.createElement('option');
-    optionEl.setAttribute('value', Product.allProducts[i].name);     //? 
+    optionEl.setAttribute('value', Product.allProducts[i].name);
     optionEl.textContent = Product.allProducts[i].name;
     selectElement.appendChild(optionEl);
   }
